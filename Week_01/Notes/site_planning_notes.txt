@@ -1,0 +1,26 @@
+When making a website , there has to be a blueprint , and that is called the siteplan . When creating a siteplan consider the following :
+#Statement of purpose and goals
+#Definition of audience
+#Personas and scenarios - Who will use the site and how will they use it?
+#A Style guide:
+#Branding information - how to use the branding for the site correctly
+#Typography choices and justification
+#Color palette
+#Specific styling of elements on the site...ie headings, lists, paragraphs, forms, links, buttons, etc
+#A site map
+#Wireframes showing general layout and content for major pages
+
+Purpose :
+#1 Build Revenue Build revenues for your new/existing business or
+#2 Share Information Share corporate or educational information or
+#3 Share Opinions Share opinions on a subject or
+#4 Share Personal Interests Share personal interests with family and friends
+
+Audience:
+Write a statement specifically identifying your target audience. Try to answer these questions:
+#1 Who are the target customers? Describe their life (or business) situation (age, financial situation, interests, etc)
+#2 What do they want?
+#3 What are their needs that aren't being met?
+#4 How will my audience usually access my site (desktop, laptop, mobile device)
+
+ 

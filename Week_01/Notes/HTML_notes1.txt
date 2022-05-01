@@ -1,0 +1,36 @@
+Remember that all the things that will appear in the browser are written within the <body> .
+Most tags must have an opening and a closing tag . A closing tag looks like this </body>.
+Nesting is when we have tags inside of tags . We have the parent tags and the children tags .
+The basic structure of any HTML page always looks like this :
+<!Doctype html>
+<html>
+    <head>
+    <title> Page Title </title>
+    </head>
+    <body>
+    *This is where all the stuff that appear in the webpage will be shown. 
+    </body>  
+
+</html>
+
+****************************************************************************************************************************************
+
+ELEMENTS
+This elements contains the same information for a website . Its always on the top . Things like the menu , buttons etc . 
+<header>
+    <nav>
+    The nave element holds all the headings .
+    within the nav element there is an a element.
+        <a href = "index.html">Home</a> ##The href is called an attribute . Any addtional information inside of an opening tag is called an attribute ! An attribute is usually followed by an ="value"sign , then the value in quotes.
+        <a href = "aboutme.html">About Me</a>
+        **Notice that when working with links in HTML the destination of the link goes in the src attribute. Then the part you click on goes inside of the <a> element.
+        #attribute names and tags are alwasy in lower case . It is good practice to keep it this way .
+        <img src "voyager.jpg" alt = "docking station"> # The image tag does not need a closing tag , because there is no content in between the tags , all the info is inside the attribute. 
+</header>        
+    </nav>
+<footer> 
+This contains all the information that stays on the bottom of a webpage . Things liike contact info etc.
+</footer>
+
+******************************************************************************************************************************************
+HOW TO MAKE PAGES GO LIVE ON THE INTERNET
