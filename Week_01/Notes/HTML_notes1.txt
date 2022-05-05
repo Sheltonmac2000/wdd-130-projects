@@ -1,9 +1,11 @@
+*The purpose of a web browser is to display a HTML file . The browser uses the HTML tags to display the content of an HTML file.
+*It is crucial to know that tags always have content in between them . That is why there is an opening and a closing tag.
 Remember that all the things that will appear in the browser are written within the <body> .
 Most tags must have an opening and a closing tag . A closing tag looks like this </body>.
 Nesting is when we have tags inside of tags . We have the parent tags and the children tags .
 The basic structure of any HTML page always looks like this :
 <!Doctype html>
-<html>
+<html lang = "en"> **You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
     <head>
     <title> Page Title </title>
     </head>
@@ -33,4 +35,15 @@ This contains all the information that stays on the bottom of a webpage . Things
 </footer>
 
 ******************************************************************************************************************************************
-HOW TO MAKE PAGES GO LIVE ON THE INTERNET
+COMMON TAGS USED IN HTML
+<a href = "link.com">Click here to open this link </a> *This is a link tag . It directs you to a specific link on the internet 
+HTML images are defined with the <img> tag.
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> * You can add width and height to your img tag. Those are additional attributes. Using this means you don't have to size the image differenlty before inserting it .
+the alt = "" attribute specifies the name of the image . It may appear in the place of an image if the image does not appear for whatever reason .
+The style attribute is used to add styles to an element, such as color, font, size, and more. This can be either an attribute or a tag .
+<style></style> or like this <p style = "">Whatever dude</p>
+<p></p> *When writing text using the paragraph tag , the browser will automatically create its own whitespaces . So even if i try to create my own like this l        o        v       e      l      i . The browser will ignore this 
+<hr> *THIS does not have a closing tag . This tag will seperate sentences inside a paragraph , and it will draw a horizontal line when used.
+<br> This is like the /n in python . It will start a new line without havinf to open a new <p></p> tag .
+<pre></pre> Using these elements , will not ignore your whitespaces or formatting . The browser will dispaly it exactly as you write it in HTML. BUT, IT COMES WIHT ITS OWN FONT , SO IT WILL LOOK DIFFERENT FROM THE REST OF THE TEXT .
