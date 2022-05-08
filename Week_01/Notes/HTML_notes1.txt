@@ -47,3 +47,5 @@ The style attribute is used to add styles to an element, such as color, font, si
 <hr> *THIS does not have a closing tag . This tag will seperate sentences inside a paragraph , and it will draw a horizontal line when used.
 <br> This is like the /n in python . It will start a new line without havinf to open a new <p></p> tag .
 <pre></pre> Using these elements , will not ignore your whitespaces or formatting . The browser will dispaly it exactly as you write it in HTML. BUT, IT COMES WIHT ITS OWN FONT , SO IT WILL LOOK DIFFERENT FROM THE REST OF THE TEXT .
+The target attribute specifies where to open the linked document.This attribute goes inside the <a>link</a> tag .
+i.e <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
